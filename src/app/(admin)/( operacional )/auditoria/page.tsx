@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React, { useMemo, useState } from "react";
@@ -116,7 +114,7 @@ export default function AuditoriaPage() {
               className="w-full pl-10 pr-3 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-200"
             />
             <div className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
-              <svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M21 21l-4.35-4.35M10.5 18A7.5 7.5 0 1 1 18 10.5 7.508 7.508 0 0 1 10.5 18z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M21 21l-4.35-4.35M10.5 18A7.5 7.5 0 1 1 18 10.5 7.508 7.508 0 0 1 10.5 18z" /></svg>
             </div>
           </div>
 
@@ -144,7 +142,7 @@ export default function AuditoriaPage() {
         {filtered.length === 0 ? (
           <div className="bg-white rounded-lg shadow p-12 text-center text-gray-400">
             <div className="mb-4">
-              <svg width="48" height="48" viewBox="0 0 24 24" className="mx-auto text-gray-300"><path fill="currentColor" d="M12 3v18M3 12h18"/></svg>
+              <svg width="48" height="48" viewBox="0 0 24 24" className="mx-auto text-gray-300"><path fill="currentColor" d="M12 3v18M3 12h18" /></svg>
             </div>
             <div>Nenhum registro de auditoria encontrado</div>
           </div>
