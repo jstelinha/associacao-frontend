@@ -11,7 +11,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   return (
     <Layout style={{ minHeight: "100vh" }}>
       {/* Sidebar à esquerda */}
-      <Sidebar />
+      {/* <Sidebar /> */}
 
       {/* Conteúdo principal à direita */}
       <Layout className="bg-gray-50">

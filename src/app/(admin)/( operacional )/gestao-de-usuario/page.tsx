@@ -8,7 +8,7 @@ import Link from 'next/link'
 const { Title, Paragraph } = Typography
 const { Search } = Input
 
-export default function GestaoDeMembrosPage() {
+export default function GestaoDeUsuáriosPage() {
   // Protótipo: lista vazia por enquanto
   const [query, setQuery] = useState('')
   const membros: any[] = [] // futuramente substituir por fetch()
