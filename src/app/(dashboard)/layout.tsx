@@ -3,7 +3,7 @@
 "use client";
 
 import { Layout } from "antd";
-import { Sidebar } from "@/components/Sidebar";
+import { Sidebar } from "../../components/Sidebar";
 
 const { Content } = Layout;
 
