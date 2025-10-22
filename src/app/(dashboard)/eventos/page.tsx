@@ -17,7 +17,7 @@ export default function EventosPage() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6 py-10">
+      <div className="p-6 md:p-8 space-y-6">
         {/* Header */}
         <header className="mb-8">
           <Title level={2} className="!text-3xl !mb-1">

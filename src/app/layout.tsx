@@ -1,3 +1,5 @@
+//
+
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -51,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               minHeight: "100vh",
             }}
           >
-            <Header
+            {/* <Header
               style={{
                 height: 64,
                 display: "flex",
@@ -64,10 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 zIndex: 20,
               }}
             >
-              <div style={{ flex: 1 }}>
-                <h3 style={{ margin: 0 }}>Bem-vindo ao Dashboard!</h3>
-              </div>
-            </Header>
+            </Header> */}
 
             <Content style={{ padding: 24, minHeight: "calc(100vh - 64px)", background: "#fafafa" }}>
               {children}
@@ -107,6 +106,7 @@ function findLeftFixedElements(): HTMLElement[] {
  * Observa os candidates (arrays de elementos) e atualiza o setSiderWidth sempre que um mudar de largura.
  * Se houver mais de um candidate, escolhe o maior width (o que realmente está "por cima").
  */
+
 function observeCandidates(candidates: HTMLElement[], setSiderWidth: (w: number) => void) {
   // função para recalcular a largura a partir dos elementos candidatos
   const update = () => {
