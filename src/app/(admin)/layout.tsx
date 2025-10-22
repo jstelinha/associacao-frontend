@@ -2,7 +2,6 @@
 
 import { Layout } from "antd";
 import type React from "react";
-import { Sidebar as App } from "../../components/Sidebar";
 
 const { Content } = Layout;
 
@@ -13,7 +12,6 @@ export default function DashboardLayout({
 }) {
   return (
     <Layout style={{ height: "100vh" }}>
-      <App />
       <Layout className="bg-gray-50">
         <Content className="py-6">
           {/* Centraliza e limita largura do conteúdo — ajusta para ficar igual ao mock */}
