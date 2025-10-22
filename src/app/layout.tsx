@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Layout } from "antd";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Sidebar } from "./components/Sidebar";// mantém teu componente, não modifique
+import { Sidebar } from "./components/Sidebar";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Layout style={{ minHeight: "100vh" }}>
-          {/* renderiza seu sidebar existente (não alteramos) */}
+          {/* renderiza sidebar existente */}
           <Sidebar />
 
           {/* Conteúdo principal deslocado pela largura detectada */}
