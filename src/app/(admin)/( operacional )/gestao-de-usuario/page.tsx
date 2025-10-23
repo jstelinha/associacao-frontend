@@ -18,7 +18,7 @@ export default function GestaoDeUsuáriosPage() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6 py-10">
+      <div className="p-6 md:p-8 space-y-6">
 
         {/* Header */}
         <header className="mb-6">
@@ -29,7 +29,7 @@ export default function GestaoDeUsuáriosPage() {
                   <TeamOutlined />
                 </div>
                 <div>
-                  <Title level={2} className="!mb-1 !text-2xl">Gestão de Membros</Title>
+                  <Title level={2} className="!mb-1 !text-2xl">Gestão de Usuários</Title>
                   <Paragraph className="text-gray-500 !mb-0">Gerencie membros e converta usuários externos</Paragraph>
                 </div>
               </div>
@@ -86,9 +86,6 @@ export default function GestaoDeUsuáriosPage() {
             <Card className="rounded-xl shadow-md min-h-[160px]">
               <div className="flex items-center justify-between mb-4">
                 <div className="text-lg font-semibold">Usuários Externos ( {usuariosExternos.length} )</div>
-                <div>
-                  <Button size="small">Importar</Button>
-                </div>
               </div>
 
               {usuariosExternos.length === 0 ? (

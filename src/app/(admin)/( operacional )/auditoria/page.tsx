@@ -92,13 +92,13 @@ export default function AuditoriaPage() {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="p-6 md:p-8 space-y-6">
       <div className="flex items-center gap-4">
-        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#1a2332] to-[#0f1419] flex items-center justify-center">
+        {/* <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#1a2332] to-[#0f1419] flex items-center justify-center">
           <svg width="20" height="20" viewBox="0 0 24 24" className="text-yellow-300">
             <path fill="currentColor" d="M12 3v18M3 12h18" />
           </svg>
-        </div>
+        </div> */}
         <div>
           <h1 className="text-3xl font-bold text-[#1a2332]">Auditoria do Sistema</h1>
           <p className="text-gray-500">Acompanhe todas as ações realizadas no sistema</p>
